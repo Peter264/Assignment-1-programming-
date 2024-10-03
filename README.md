@@ -24,7 +24,7 @@ int main() {
     } else {
         // Determine the fine 
         if (daysOverdue <= 7) {
-            fine = daysOverdue * 20; // 20 Sh/day for up to 7 days
+            fine = daysOverdue * 20; 
         } else if (daysOverdue <= 14) {
             fine = 7 * 20 + (daysOverdue - 7) * 50; 
         } else {
