@@ -9,10 +9,10 @@ int main() {
     printf("Enter Book ID: ");
     scanf("%d", &bookID);
     
-    printf("Enter Due Date (as a number representing days): ");
+    printf("Enter Due Date: ");
     scanf("%d", &dueDate);
     
-    printf("Enter Return Date (as a number representing days): ");
+    printf("Enter Return Date : ");
     scanf("%d", &returnDate);
     
     // Calculate the days overdue
